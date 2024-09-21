@@ -3,9 +3,11 @@ package future_tech;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import org.slf4j.Logger;
 
+@Mod(FutureTech.MOD_ID)
 public class FutureTech {
 
     public static final String MOD_ID = "future_tech";
