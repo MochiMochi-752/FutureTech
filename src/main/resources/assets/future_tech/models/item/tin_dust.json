@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "future_tech:item/ingot/bronze_ingot"
+    "layer0": "future_tech:item/dust/tin_dust"
   }
 }

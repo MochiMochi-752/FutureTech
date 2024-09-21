@@ -15,6 +15,7 @@ public class FutureTechItems {
     public static final Supplier<Item> BRONZE_INGOT = ITEMS.registerSimpleItem("bronze_ingot");
 
     public static final Supplier<Item> TIN_DUST = ITEMS.registerSimpleItem("tin_dust");
+    public static final Supplier<Item> BRONZE_DUST = ITEMS.registerSimpleItem("bronze_dust");
 
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
