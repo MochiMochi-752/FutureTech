@@ -2,12 +2,12 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 200,
-  "experience": 0.5,
+  "experience": 0.3,
   "ingredient": {
-    "item": "future_tech:bronze_dust"
+    "item": "future_tech:tin_dust"
   },
   "result": {
     "count": 1,
-    "id": "future_tech:bronze_ingot"
+    "id": "future_tech:tin_ingot"
   }
 }
