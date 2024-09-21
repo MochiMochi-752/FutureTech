@@ -1,6 +1,8 @@
 package future_tech;
 
 import com.mojang.logging.LogUtils;
+import future_tech.init.FutureTechCreativeModeTabs;
+import future_tech.init.FutureTechItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -16,6 +18,9 @@ public class FutureTech {
 
     public FutureTech(IEventBus modBus, ModContainer container) {
         modBus.addListener(this::commonSetup);
+
+        FutureTechItems.register(modBus);
+        FutureTechCreativeModeTabs.register(modBus);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
