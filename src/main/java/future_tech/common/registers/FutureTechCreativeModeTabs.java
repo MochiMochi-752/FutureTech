@@ -1,4 +1,4 @@
-package future_tech.init;
+package future_tech.common.registers;
 
 import future_tech.FutureTech;
 import net.minecraft.core.registries.Registries;

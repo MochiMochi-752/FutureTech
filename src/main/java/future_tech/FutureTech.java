@@ -1,8 +1,9 @@
 package future_tech;
 
 import com.mojang.logging.LogUtils;
-import future_tech.init.FutureTechCreativeModeTabs;
-import future_tech.init.FutureTechItems;
+import future_tech.common.registers.FutureTechBlocks;
+import future_tech.common.registers.FutureTechCreativeModeTabs;
+import future_tech.common.registers.FutureTechItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -19,6 +20,7 @@ public class FutureTech {
     public FutureTech(IEventBus modBus, ModContainer container) {
         modBus.addListener(this::commonSetup);
 
+        FutureTechBlocks.register(modBus);
         FutureTechItems.register(modBus);
         FutureTechCreativeModeTabs.register(modBus);
     }
