@@ -111,7 +111,13 @@ configurations {
     runtimeClasspath.extendsFrom localRuntime
 }
 
+repositories {
+    maven { url 'https://maven.blamejared.com/' }
+}
+
 dependencies {
+    compileOnly('mezz.jei:jei-1.21.1-neoforge-api:19.18.10.218')
+    compileOnly('mezz.jei:jei-1.21.1-neoforge:19.18.10.218')
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
