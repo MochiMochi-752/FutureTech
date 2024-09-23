@@ -3,6 +3,7 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.3,
+  "group": "tin",
   "ingredient": {
     "item": "future_tech:tin_dust"
   },

@@ -2,9 +2,10 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 200,
-  "experience": 0.3,
+  "experience": 0.6,
+  "group": "tin",
   "ingredient": {
-    "item": "future_tech:tin_dust"
+    "item": "future_tech:deepslate_tin_ore"
   },
   "result": {
     "count": 1,

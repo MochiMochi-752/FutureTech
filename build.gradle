@@ -119,12 +119,6 @@ repositories {
 dependencies {
     compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
     runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
-
-    compileOnly("mekanism:Mekanism:${mekanism_version}:api")
-    runtimeOnly("mekanism:Mekanism:${mekanism_version}")
-    runtimeOnly("mekanism:Mekanism:${mekanism_version}:additions")
-    runtimeOnly("mekanism:Mekanism:${mekanism_version}:generators")
-    runtimeOnly("mekanism:Mekanism:${mekanism_version}:tools")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

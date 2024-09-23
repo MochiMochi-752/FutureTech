@@ -12,11 +12,14 @@ public class FutureTechItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FutureTech.MOD_ID);
 
-    public static final Supplier<Item> TIN_INGOT = ITEMS.registerSimpleItem("tin_ingot");
     public static final Supplier<Item> BRONZE_INGOT = ITEMS.registerSimpleItem("bronze_ingot");
+    public static final Supplier<Item> TIN_INGOT = ITEMS.registerSimpleItem("tin_ingot");
 
-    public static final Supplier<Item> TIN_DUST = ITEMS.registerSimpleItem("tin_dust");
+    public static final Supplier<Item> RAW_TIN = ITEMS.registerSimpleItem("raw_tin");
+
     public static final Supplier<Item> BRONZE_DUST = ITEMS.registerSimpleItem("bronze_dust");
+    public static final Supplier<Item> COPPER_DUST = ITEMS.registerSimpleItem("copper_dust");
+    public static final Supplier<Item> TIN_DUST = ITEMS.registerSimpleItem("tin_dust");
 
     public static final Supplier<BlockItem> TIN_ORE = ITEMS.registerSimpleBlockItem(FutureTechBlocks.TIN_ORE);
     public static final Supplier<BlockItem> DEEPSLATE_TIN_ORE = ITEMS.registerSimpleBlockItem(FutureTechBlocks.DEEPSLATE_TIN_ORE);

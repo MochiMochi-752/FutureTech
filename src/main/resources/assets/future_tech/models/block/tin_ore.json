@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "future_tech:block/ore/tin_ore"
+  }
+}
